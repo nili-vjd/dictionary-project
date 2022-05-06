@@ -9,7 +9,7 @@ export default function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <main>
-            <Dictionary />
+            <Dictionary defaultKeyword="sunset" />
           </main>
           <footer className="App-footer">
             {" "}
